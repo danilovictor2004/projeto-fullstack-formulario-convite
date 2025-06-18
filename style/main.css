@@ -1,3 +1,5 @@
 .main {
-    background-color: red;
+    background-color: var(--shape-body);
+    padding-inline: 130px;
+    border-radius: 12px;
 }

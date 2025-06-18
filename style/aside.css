@@ -2,10 +2,12 @@
     background-image: url(../assets/images/Background.png); /* Exemplo: se a imagem for para o aside */
     background-size: contain;
     background-repeat: no-repeat;
+    border-radius: 12px;
 
     & div {
         padding: 2rem;
         margin: auto;
+        
         & .festivite {
             margin-top: 1rem;
             margin-bottom: 0.25rem;

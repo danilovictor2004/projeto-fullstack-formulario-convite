@@ -38,25 +38,21 @@
 
 body {
     background-color: var(--shape-background);
-    padding: 20px;
     color: var(--text-body);
 }
 
 img {
     display: block;
     max-width: 100%;
-    height: auto;
 }
 
 #app {
     display: grid;
     max-width: 1280px;
-    height: 100vh;
-    margin-inline: auto;
+    margin: 1.25rem auto;
     grid-template-columns: minmax(400px, auto) 1fr;
     gap: 1.25rem;
 }
-
 
 
 
