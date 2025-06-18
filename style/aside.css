@@ -1,8 +1,9 @@
 .aside {
     background-image: url(../assets/images/Background.png); /* Exemplo: se a imagem for para o aside */
-    background-size: contain;
+    background-size: cover;
     background-repeat: no-repeat;
     border-radius: 12px;
+    height: 700px;
 
     & div {
         padding: 2rem;
