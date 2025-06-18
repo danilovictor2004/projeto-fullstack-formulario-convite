@@ -46,32 +46,18 @@ img {
     max-width: 100%;
 }
 
+.container {
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
 #app {
     display: grid;
     grid-template-columns: 1fr 1fr;
     height: 100vh;
 }
 
-aside {
-    background-image: url(../assets/images/Background.png); /* Exemplo: se a imagem for para o aside */
-    background-size: contain;
-    background-repeat: no-repeat;
 
-    & div {
-        padding: 2rem;
-
-        & .festivite {
-            margin-top: 1rem;
-            margin-bottom: 0.25rem;
-        }
-
-        & p {
-            font: 300 1rem/auto var(--font-family);
-            
-        }
-    }
-    
-}
 
 
 
