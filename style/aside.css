@@ -5,17 +5,16 @@
 
     & div {
         padding: 2rem;
-
+        margin: auto;
         & .festivite {
             margin-top: 1rem;
             margin-bottom: 0.25rem;
         }
 
         & p {
-           font: 300 1rem/normal var(--font-family); 
+           font: 300 1rem/normal var(--font-family);
         }
     }
-    
 }
 
 
