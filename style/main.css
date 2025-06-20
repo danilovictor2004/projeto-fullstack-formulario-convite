@@ -2,6 +2,5 @@
     background-color: var(--shape-body);
     padding-inline: 130px;
     border-radius: 12px;
-    height: 700px;
     overflow-y: scroll;
 }

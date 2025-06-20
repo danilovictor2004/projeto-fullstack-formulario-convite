@@ -51,10 +51,11 @@ img {
 #app {
     display: grid;
     max-width: 1280px;
-    margin-block: 20px;
+    padding-block: 1.25rem;
     margin-inline: auto;
-    grid-template-columns: minmax(400px, auto) 1fr;
+    grid-template-columns: minmax(25rem, auto) 1fr;
     gap: 1.25rem;
+    height: 100vh;
 }
 
 

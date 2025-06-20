@@ -3,7 +3,6 @@
     background-size: cover;
     background-repeat: no-repeat;
     border-radius: 12px;
-    height: 700px;
 
     & div {
         padding: 2rem;
@@ -14,8 +13,8 @@
             margin-bottom: 0.25rem;
         }
 
-        & p {
-           font: 300 1rem/normal var(--font-family);
+        & .title {
+           font: 100 1rem/normal var(--font-family);
         }
     }
 }
