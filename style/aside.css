@@ -1,21 +1,17 @@
-.aside {
+.aside__content {
     background-image: url(../assets/images/Background.png); /* Exemplo: se a imagem for para o aside */
     background-size: cover;
     background-repeat: no-repeat;
     border-radius: 12px;
-
-    & div {
-        padding: 2rem;
-        margin: auto;
+    padding: 2rem;
         
-        & .festivite {
-            margin-top: 1rem;
-            margin-bottom: 0.25rem;
-        }
+    & .festivite {
+        margin-top: 1rem;
+        margin-bottom: 0.25rem;
+    }
 
-        & .title {
-           font: 100 1rem/normal var(--font-family);
-        }
+    & .title {
+        font: var(--text-md)
     }
 }
 

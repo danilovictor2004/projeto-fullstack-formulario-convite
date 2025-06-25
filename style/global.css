@@ -33,7 +33,13 @@
     --cyan: #59FFF9;
     --navy: #6A59FF;
 
-    --font-family: 'Open Sans', sans-serif;
+    --font-family-primary: 'Open Sans', sans-serif;
+    --font-family-secondary: "Baloo 2", sans-serif;
+
+    --text-xl: 700 1.75rem/normal var(--font-family-secondary);
+    --text-lg: 700 1.125rem/normal var(--font-family-secondary);
+    --text-md: 300 1rem/normal var(--font-family-primary);
+    --text-sm: 300 0.875rem/normal var(--font-family-primary);
 }
 
 body {
@@ -48,6 +54,10 @@ img {
     height: auto;
 }
 
+label {
+    display: block;
+}
+
 #app {
     display: grid;
     max-width: 1280px;
@@ -58,6 +68,10 @@ img {
     height: 100vh;
 }
 
+.grid-cols-2  {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
 
 
 

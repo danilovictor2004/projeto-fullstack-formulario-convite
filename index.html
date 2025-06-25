@@ -14,15 +14,68 @@
 </head>                  
 <body>
     <div id="app">
-        <aside class="aside">
-            <div>
+        <aside class="aside__content">
+
                 <img class="logo" src="./assets/icons/Logo.svg" alt="ícone de festa">
                 <img class="festivite" src="./assets/icons/Festivite.svg" alt="festivite">    
                 <p class="title">Crie um convite digital para o seu evento</p>
-            </div>
+
         </aside>
 
         <main class="main">
+            <h2>Crie seu convite</h2>
+
+            <form action="#" method="post">
+                <fieldset class="events">
+                    <legend>
+                        <img src="./assets/icons/calendar.svg" alt="ícone de calendario">
+                        <h3>Sobre o evento</h3>
+                    </legend>
+
+                    <div class="input-wrapper">
+                        <label for="titulo">Título</label>
+                        <input type="text" name="titulo" id="titulo" placeholder="Nome do evento">
+                    </div>
+
+                    <div class="grid-cols-2">
+                        <div class="input-wrapper">
+                            <label for="inicio">Início</label>
+                            <input type="datetime-local" name="inicio" id="inicio">
+                        </div>
+
+                        <div class="input-wrapper">
+                            <label for="fim">Fim</label>
+                            <input type="datetime-local" name="fim" id="fim">
+                        </div>
+                    </div>
+
+                    <div class="grid-cols-2">
+                        <div class="radio-group-container">
+                            <p>Tipo</p>
+                            <div class="grid">
+                                <div class="radio-option">
+                                    <input type="radio" name="tipo_evento" id="presencial">
+                                    <label for="presencial">Presencial</label>
+                                </div>
+                                <div class="radio-option">
+                                    <input type="radio" name="tipo_evento" id="online">
+                                    <label for="online">Online</label>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="input-wrapper">
+                            <label for="local">Local</label>
+                            <input type="text" name="local" id="local" placeholder="Link ou endereço">
+                        </div>
+
+                        <div class="input-wrapper">
+                            <label for="">Descrição</label>
+                            <textarea name="descricao" id="descricao" cols="30" rows="10" placeholder="Escreva sobre os detalhes do evento"></textarea>
+                        </div>
+                    </div> 
+                </fieldset>
+            </form>
         </main>
     </div>
 </body>
