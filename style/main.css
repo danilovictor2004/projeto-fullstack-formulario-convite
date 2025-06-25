@@ -1,6 +1,8 @@
 .main {
     background-color: var(--shape-body);
     padding-inline: 130px;
-    border-radius: 12px;
+    border-top-left-radius: 12px;
+    border-bottom-left-radius: 12px;
     overflow-y: scroll;
+    overflow-x: hidden;
 }
