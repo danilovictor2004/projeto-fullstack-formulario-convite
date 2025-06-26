@@ -1,0 +1,56 @@
+.radio-group-container {
+    & .radio-wrapper {
+        background-color: var(--input-base);
+        border: 1px solid  var(--input-stroke);
+        height: 3.1rem;
+        padding: 0.25rem;
+        border-radius: 0.5rem;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    & .radio-option {
+        position: relative;
+        overflow: hidden;
+        background-color: var(--input-base);
+        border-radius: 8px;
+        cursor: pointer;
+
+        & input[type="radio"] {
+            appearance: none;
+            position: absolute;
+            inset: 0;
+            opacity: 0;
+            cursor: pointer;
+            z-index: 1;
+        }
+
+        & input[type="radio"]:checked + .radio {
+            background-color: var(--input-stroke);
+            color: var(--text-heading);
+        }
+
+        & input[type="radio"]:checked + .radio svg path {
+            stroke: var(--brand-light);
+        }
+    }
+
+    & p {
+        margin-block: 0.75rem 1rem;
+    }
+
+    & .radio {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 8px; 
+        width: 100%;
+        height: 100%;
+        z-index: 0;
+        padding-block: 0.625rem;
+
+    }
+}
+
+
+

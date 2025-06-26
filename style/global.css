@@ -44,7 +44,8 @@
 
 body {
     background-color: var(--shape-background);
-    color: var(--text-body);
+    font: var(--text-sm);
+    color: var(--input-placeholder);
     overflow: hidden;
 }
 
@@ -52,6 +53,10 @@ img {
     display: block;
     max-width: 100%;
     height: auto;
+}
+
+svg {
+    display: inline-block;
 }
 
 label {
@@ -71,6 +76,10 @@ label {
 .grid-cols-2  {
     display: grid;
     grid-template-columns: 1fr 1fr;
+}
+
+.gap-16 {
+    gap: 1rem;
 }
 
 
