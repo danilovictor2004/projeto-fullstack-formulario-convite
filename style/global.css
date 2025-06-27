@@ -63,6 +63,10 @@ label {
     display: block;
 }
 
+h4 {
+    font: var(--text-md);
+}
+
 #app {
     display: grid;
     max-width: 1280px;
