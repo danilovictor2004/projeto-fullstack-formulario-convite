@@ -66,6 +66,7 @@ label {
 h4 {
     font: var(--text-md);
     margin-top: 28px;
+    color: var(--text-heading);
 }
 
 #app {

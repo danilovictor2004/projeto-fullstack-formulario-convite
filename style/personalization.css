@@ -52,18 +52,6 @@
         outline-offset: 4px;
     }
 
-    & .radio-theme-group {
-        display: grid;
-        grid-template-columns: repeat(4, 1fr);
-        gap: 8px;
-        justify-content: space-between;
-        margin-top: 1rem;
-
-        & img {
-            width: 100%;
-        }
-    }
-
 }
 
 .color-brand-light-theme {
