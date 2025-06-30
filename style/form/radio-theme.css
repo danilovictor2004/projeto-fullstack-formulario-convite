@@ -25,11 +25,14 @@
     }
 
     & .radio-theme:hover,
-    & .radio-theme:focus-within,
+    & .radio-theme:focus-within{ 
+        background-color: var(--shape-hover);
+    }
+    
     & .radio-theme:has(input[type="radio"]:checked)  {
         border: 2px solid var(--brand-light);
     }
-    
+
     & img {
         width: 100%;
     }
