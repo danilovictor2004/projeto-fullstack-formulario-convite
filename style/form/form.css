@@ -8,12 +8,12 @@ form {
     & legend {
         display: flex;
         align-items: center;
-        margin-bottom: 1.5rem;
         gap: 12px;
 
         & h3 {
             font: var(--text-lg);
             color: var(--text-heading);
+            
         }  
     } 
 
