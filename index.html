@@ -182,7 +182,7 @@
                     <h4>Tema do evento</h4>
                     <div class="radio-theme-group">
                         <div class="radio-theme">
-                            <input type="radio" name="theme" id="theme-aniversario" checked> 
+                            <input type="radio" name="theme" id="theme-aniversario" value="aniversário" checked> 
                             <label for="theme-aniversario">
                                 <img src="./assets/images/img-aniversario.png" alt="aniversario">
                                 <span>Aniversário</span>
@@ -190,7 +190,7 @@
                         </div> 
 
                         <div class="radio-theme">
-                            <input type="radio" name="theme" id="theme-infantil"> 
+                            <input type="radio" name="theme" id="theme-infantil" value="infantil"> 
                             <label for="theme-infantil">
                                 <img src="./assets/images/img-infantil.png" alt="infantil">
                                 <span>Infantil</span>
@@ -198,7 +198,7 @@
                         </div> 
 
                         <div class="radio-theme">
-                            <input type="radio" name="theme" id="theme-formatura"> 
+                            <input type="radio" name="theme" id="theme-formatura" value="formatura"> 
                             <label for="theme-formatura">
                                 <img src="./assets/images/img-formatura.png" alt="formatura">
                                 <span>Formatura</span>
@@ -206,7 +206,7 @@
                         </div> 
 
                         <div class="radio-theme">
-                            <input type="radio" name="theme" id="theme-casamento"> 
+                            <input type="radio" name="theme" id="theme-casamento" value="casamento"> 
                             <label for="theme-casamento">
                                 <img src="./assets/images/img-casamento.png" alt="casamento">
                                 <span>Casamento</span>
@@ -214,7 +214,7 @@
                         </div> 
 
                         <div class="radio-theme">
-                            <input type="radio" name="theme" id="theme-cha-bebe"> 
+                            <input type="radio" name="theme" id="theme-cha-bebe" value="cha bebê"> 
                             <label for="theme-cha-bebe">
                                 <img src="./assets/images/img-cha-bebe.png" alt="cha de bebe">
                                 <span>Chá de bebê</span>
@@ -222,7 +222,7 @@
                         </div> 
 
                         <div class="radio-theme">
-                            <input type="radio" name="theme" id="theme-cha-panela"> 
+                            <input type="radio" name="theme" id="theme-cha-panela" value="cha panela"> 
                             <label for="theme-cha-panela">
                                 <img src="./assets/images/img-cha-panela.png" alt="cha de panela">
                                 <span>Chá de panela</span>
@@ -230,7 +230,7 @@
                         </div> 
 
                         <div class="radio-theme">
-                            <input type="radio" name="theme" id="theme-carnaval"> 
+                            <input type="radio" name="theme" id="theme-carnaval" value="carnaval"> 
                             <label for="theme-carnaval">
                                 <img src="./assets/images/img-carnaval.png" alt="carnaval">
                                 <span>Carnaval</span>
@@ -238,7 +238,7 @@
                         </div>
                         
                         <div class="radio-theme">
-                            <input type="radio" name="theme" id="theme-pascoa"> 
+                            <input type="radio" name="theme" id="theme-pascoa" value="pascoa"> 
                             <label for="theme-pascoa">
                                 <img src="./assets/images/img-pascoa.png" alt="pascoa">
                                 <span>Pascoa</span>
@@ -246,7 +246,7 @@
                         </div>
 
                         <div class="radio-theme">
-                            <input type="radio" name="theme" id="theme-sao-joao"> 
+                            <input type="radio" name="theme" id="theme-sao-joao" value="sao joao"> 
                             <label for="theme-sao-joao">
                                 <img src="./assets/images/img-sao-joao.png" alt="São joão">
                                 <span>São João</span>
@@ -254,7 +254,7 @@
                         </div>
 
                         <div class="radio-theme">
-                            <input type="radio" name="theme" id="theme-halloween"> 
+                            <input type="radio" name="theme" id="theme-halloween" value="halloween"> 
                             <label for="theme-halloween">
                                 <img src="./assets/images/img-halloween.png" alt="halloween">
                                 <span>Halloween</span>
@@ -262,7 +262,7 @@
                         </div>
 
                         <div class="radio-theme">
-                            <input type="radio" name="theme" id="theme-natal"> 
+                            <input type="radio" name="theme" id="theme-natal" value="natal"> 
                             <label for="theme-natal">
                                 <img src="./assets/images/img-natal.png" alt="natal">
                                 <span>Natal</span>
@@ -270,7 +270,7 @@
                         </div>
 
                         <div class="radio-theme">
-                            <input type="radio" name="theme" id="theme-outro"> 
+                            <input type="radio" name="theme" id="theme-outro" value="outro"> 
                             <label for="theme-outro">
                                 <img src="./assets/images/img-outro.png" alt="outro">
                                 <span>Outro</span>
@@ -279,12 +279,20 @@
                     </div>
 
                     <!-- continuar -->
-                    <div class="grid-cols-2">
+                    <div class="grid-cols-2-custom">
                         <div>
-                            <h4>Estilo</h4>
+                            <h4 class="section-title">Estilo</h4>
                         </div>
                         <div>
-                            <h4>Foto de capa</h4>
+                            <h4 class="section-title">Foto de capa</h4>
+                            <div class="file-upload-wrapper">
+                                <label for="foto-capa">
+                                    <img src="./assets/icons/upload.svg" alt="icone de upload">
+                                    <p>Selecione</p>
+                                </label>
+                                <p>Nenhum arquivo selecionado</p>
+                                <input type="file" name="foto-capa" id="foto-capa">
+                            </div>
                         </div>
                     </div>
                 </fieldset>
