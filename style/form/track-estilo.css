@@ -1,0 +1,31 @@
+#switch {
+    height: 48px;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    position: relative;
+    & button {
+        width: 24px;
+        height: 24px;
+        background-color: var(--input-stroke);
+        border-radius: 50%;
+        border: none;
+        position: absolute;
+        top: 4;
+        left: 5px;
+        z-index: 1;
+    }
+
+    & span {
+        display: block;
+        width: 64px;
+        height: 32px;
+        border-radius: 999px;
+        background-color: var(--input-base);
+        border: 1px solid var(--input-stroke);
+    }
+
+    p {
+        color: var(--text-heading);
+    }
+}
