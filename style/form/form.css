@@ -12,8 +12,7 @@ form {
 
         & h3 {
             font: var(--text-lg);
-            color: var(--text-heading);
-            
+            color: var(--text-heading);  
         }  
     } 
 
