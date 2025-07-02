@@ -17,8 +17,29 @@ form {
         }  
     } 
 
-    .section-title {
+    & .section-title {
         margin-bottom: 12px;
+    }
+
+    & .form-actions {
+        display: flex;
+        justify-content: flex-end;
+
+        & .button {
+            background-color: var(--brand-dark);
+            border: none;
+            display: flex;
+            align-items: center;
+            color: var(--text-heading);
+            gap: 12px;
+            padding: 13px 20px;
+            border-radius: 8px;
+            cursor: pointer;
+
+            &:hover {
+                background-color: var(--brand-md);
+            }
+        }
     }
 
 }

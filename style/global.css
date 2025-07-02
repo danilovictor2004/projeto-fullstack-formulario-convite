@@ -69,6 +69,11 @@ h4 {
     color: var(--text-heading);
 }
 
+a {
+    text-decoration: underline;
+    color: var(--brand-light);
+}
+
 #app {
     display: grid;
     max-width: 1280px;
@@ -93,6 +98,11 @@ h4 {
 .gap-16 {
     gap: 1rem;
 }
+
+.info {
+    margin-top: 1.5rem;
+}
+    
 
 
 

@@ -1,0 +1,7 @@
+.footer {
+    border-top: 1px solid var(--input-stroke);
+
+    & .footer-info {
+        margin: 2.5rem 0 3rem 0;
+    }
+}

@@ -1,3 +1,7 @@
 .contact {
     margin-top: 50px;
+    
+    & .input-wrapper input {
+        margin-bottom: 40px;
+    }
 }
