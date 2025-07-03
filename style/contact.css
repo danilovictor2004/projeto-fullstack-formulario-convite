@@ -1,7 +1,23 @@
 .contact {
     margin-top: 50px;
-    
-    & .input-wrapper input {
-        margin-bottom: 40px;
+
+    & input {
+        &:invalid {
+            border: 0.125rem solid var(--danger);
+        }
+        &:valid + .error {
+            display: none;
+        }
     }
+
+    & .error {
+        display: flex;
+        margin-block: 0.25rem;
+        gap: 8px;
+
+        & span {
+            color: var(--danger);
+        }
+    }
+    
 }

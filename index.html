@@ -297,8 +297,12 @@
                                     <p>Selecione</p>
                                 </label>
                                 <input type="file" name="foto-capa" id="foto-capa" required>
-                                <p>Nenhum arquivo selecionado</p>
+                                <p>Nenhum arquivo selecionado</p> 
                             </div>
+                            <div class="error">
+                               <img src="./assets/icons/circle-alert.svg" alt="ícone de alerta vermelho">
+                               <span>Campo obrigatório</span>
+                           </div>
                         </div>
                     </div>
                 </fieldset>
@@ -313,17 +317,29 @@
                         <div class="input-wrapper">
                             <label for="nome">Nome</label>
                             <input type="text" name="nome" id="nome" placeholder="Nome Completo" required>
+                            <div class="error">
+                                <img src="./assets/icons/circle-alert.svg" alt="ícone de alerta vermelho">
+                                <span>Campo obrigatório</span>
+                            </div>
                         </div>
 
                         <div class="grid-cols-2 gap-16">
                             <div class="input-wrapper">
                                 <label for="email">Email</label>
                                 <input type="email" name="email" id="email" placeholder="exemplo@email.com" required>
+                                <div class="error">
+                                    <img src="./assets/icons/circle-alert.svg" alt="ícone de alerta vermelho">
+                                    <span>Campo obrigatório</span>
+                                </div>
                             </div>
 
                             <div class="input-wrapper">
                                 <label for="phone">Telefone</label>
                                 <input type="text" name="phone" id="phone" placeholder="(99) 99999-9999" required>
+                                <div class="error">
+                                    <img src="./assets/icons/circle-alert.svg" alt="ícone de alerta vermelho">
+                                    <span>Campo obrigatório</span>
+                                </div>
                             </div>
                         </div>
                     </div>
